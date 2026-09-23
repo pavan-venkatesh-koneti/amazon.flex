@@ -2,7 +2,17 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    background-color: antiquewhite;
+    background-color: rgb(244, 238, 231);
+}
+.grate{
+    height: 300px;
+    width: 650px;
+    background-image: url("https://assets.aboutamazon.com/dims4/default/eb47915/2147483647/strip/true/crop/1999x1125+1+0/resize/1320x743!/quality/90/?url=https%3A%2F%2Fassets.aboutamazon.com%2Fd6%2Fb9%2Fd359b13b460caea5e7fe8d9799ce%2Fagif-dates.jpeg");
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    background-size: cover;
+    border-radius: 4px;
+    
 }
 .main{
     display: flex;
@@ -15,16 +25,17 @@
 
 .sub-main{
     
-    width: 200px;
+    width: 250px;
     justify-content: center;
     transition: 0.4s;
     animation: sub-main 1s;
-    border: 1px solid ;
+    /* border: 1px solid ; */
     border-radius: 5px;
 }
 
 .sub-main:hover{
     transform: translateY(-8px);
+    transform: scale(1.07);
 }
 
 .main-image{
@@ -38,4 +49,19 @@
 
 .main-image img{
     transform: scale(1.05);
+
+}
+
+
+.sub-main .add{
+    height: 30px;
+    width: 200px;
+    background-color: rgb(225, 225, 33);
+    border-radius: 17px;
+    border: 0px;
+    box-shadow: none;
+}
+.sub-main .rate{
+
+    color: red;
 }
